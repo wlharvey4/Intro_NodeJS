@@ -1,0 +1,225 @@
+# -*- mode:org; fill-column:79; -*-
+
+#+TITLE:Introduction to NodeJS
+#+SUBTITLE:Microsoft DEV283x
+#+DATE:September 30, 2018
+#+AUTHOR:Azat Mardan
+#+VERSION:0.0.1
+
+* Introduction
+** Welcome
+*** Before You Start
+
+[[file:videos/0.1.Before_You_start.mp4][Before You Start video]]
+
+[[https://www.youtube.com/embed/aR9jcJp1FII?controls=0&wmode=transparent&rel=0&showinfo=0&enablejsapi=1&modestbranding=1&cc_load_policy=0&html5=1&origin=https%253A%252F%252Fcourses.edx.org&widgetid=7][Before You Start YouTube]]
+
+Hello and welcome to this online course from Microsoft Learning.  >> At
+Microsoft our mission is empower every person and every organization to achieve
+more.  >> Our EdX courses, taught by Microsoft experts, let you learn cutting
+edge technologies through hands on experience.  >> Whether you're a student or
+a seasoned technologist we can empower you to build innovative applications,
+services and experiences.
+
+>> So what are the requirements for course completion?  Well, time.  >> On
+average our courses have four modules, which are two to four hours each.  >>
+Watch the videos, including presentations and demonstrations.  >> Like you
+would attend a lecture on campus.  >> Complete course readings or projects and
+hands on learning activities.  >> These are your homework assignments and
+probably where you will learn most.  >> Take quizzes to help you prepare for
+the assessment.  >> The assessments can only be taken once and you need a
+passing grade to successfully complete the course.  >> Our courses are free as
+all learning should be.  >> For a shareable, verified certificate, there is the
+fee.
+
+>> While our courses offer different experiences, all of them shared a similar
+approach.  >> Please review the About page to find specific information about
+your course.  >> For example, some courses release all content immediately.  >>
+While others release modules incrementally over time.  >> Are part of a larger
+learning program.  >> Many require an Azure or Office 365 subscription.  >>
+Many students use a free trial subscription.  >> Offer opportunities to engage
+with instructors and peers.  >> The most common indicators of success among the
+more than 2 million learners that experienced our online courses are >>
+Dedicating enough time to the course.  >> Demonstrating perseverance.  >> And
+participating in the discussion groups.  >> Welcome to the world of Microsoft
+technology.  Choose a path and make your mark.
+
+*** Welcome to Introduction to Node.js
+Welcome to Introduction to Node.js on edX. In this course, you will not only
+learn the foundation of Node.js, but you will also build practical skills which
+you can use in your day-to-day job. You will be able to harness the power of
+Express and MongoDB and be ready to build your own web applications using
+Node.js. You will impress your friends, co-workers and your boss with these
+newly acquired skills.
+
+But before we start, let me introduce myself first. My name is Azat Mardan. I'm
+the founder of Node University and author of Practical Node.js as well as other
+14 books on Node and JavaScript. I've been using Node since it's earlier years
+and have been teaching it at conferences, workshops and webinars for the past
+five years.
+
+I work as a Technology Fellow at Capital One (top 10 US bank and a Fortune 500
+company) where I help to bring innovation and best software engineering
+practices. In my spare time, I write about Node and JavaScript on my blog
+Webapplog.com and Node.University.
+
+**** Lecture
+[[https://www.youtube.com/embed/dcOXqvXEWCI?controls=0&wmode=transparent&rel=0&showinfo=0&enablejsapi=1&modestbranding=1&cc_load_policy=0&html5=1&origin=https%253A%252F%252Fcourses.edx.org&widgetid=8][Lecture Video]]
+
+Hello, everyone. Welcome to this edx course, Introduction to Node.js.  In this
+course, you will learn practical skills necessary to get you started developing
+with Node.js.  I'm really excited to teach this course because I believe that
+Node.js is one of the greatest technologies which will allow you to develop
+application rapidly.
+
+Who am I? My name is Azat Mardan.  I wrote a book called Practical Node.js
+which was number one on Amazon for many months on the topic of Node.js.  And I
+was early adopter of Node.js working at such companies such as Storify and
+DocuSign.  Later on, I founded a non-scholar online school called Node
+University.  And I write about JavaScript and Node.js on my blog, webapplog and
+Node university.
+
+I'm really enthusiastic about Node.js and I really appreciate you taking the
+time to learn this amazing technology.  Welcome to the course, and I'll see you
+in the next video.
+
+** Overview
+
+This course will cover the Node core modules, Express, MongoDB and
+Mongoose. Here is a detailed overview of the course:
+
+{{{heading(Module 0: Introduction)}}}
+1. Welcome to Introduction to Node.js
+2. Course Overview
+3. Why Node.js
+4. Node in Modern Web Development
+5. Module 0 Assignment Lab---Introductions
+6. Pre-course Survey
+
+
+{{{heading(Module 1: Node Core)}}}
+1. Node Core Overview
+2. Installation and Recommended Tool Chain
+3. Launching Node, Globals and Process
+4. Node Modules with require and modules.exports
+5. Core modules
+6. Understanding event emitters
+7. HTTP client with core http
+8. HTTP server with core http
+9. Npm basics
+10. Summary of Module 1---Node Core
+11. Module 1 Tutorial Lab---Node Web Crawler
+12. Module 1 Assignment Lab---CSV to JSON Converter
+13. Module 1 Assessment
+
+
+{{{heading(Module 2: Express Framework)}}}
+1. Express Overview
+2. Why Express and Express Installations
+3. Hello World with Express
+4. Creating and Using Middleware
+5. Implementing REST API Routing
+6. URL Parameters, Query Strings and Input Validation
+7. Summary of Module 2---Express Framework
+8. Module 2 Tutorial Lab 1---REST API with Express
+9. Module 2 Assignment Lab---RESTful Blog API
+10. Module 2 Assessment
+
+
+{{{heading(Module 3: Persistence with MongoDB)}}}
+1. MongoDB Overview
+2. MongoDB Basics
+3. MongoDB Native Driver
+4. MongoDB GUI Client MongoUI
+5. Summary of Module 3: Persistence with MongoDB
+6. Module 3 Tutorial Lab: CRUD REST API with Node, Express and MongoDB
+7. Module 3 Assignment Lab: MongoDB Migration Node script
+8. Module 3 Assessment
+
+
+{{{heading(Module 4: Working with Mongoose ODM)}}}
+1. Mongoose Overview
+2. Working with Mongoose and its Schemas
+3. Working with Mongoose Models
+4. Creating Mongoose Hooks and Methods
+5. Advanced Mongoose Features
+6. Summary of Module 4: Working with Mongoose ODM
+7. Module 4 Tutorial Lab: Relational queries with Mongoose
+8. Module 4 Assignment Lab: REST API with Mongoose
+9. Module 4 Assessment
+
+
+{{{heading(Module 5: Final Assessment)}}}
+1. Final Assessment
+2. Post-Course Survey
+3. Course Summary
+
+*** Video and Transcript
+[[https://www.youtube.com/embed/OjPd4eM1MDU?controls=0&wmode=transparent&rel=0&showinfo=0&enablejsapi=1&modestbranding=1&cc_load_policy=0&html5=1&origin=https%253A%252F%252Fcourses.edx.org&widgetid=1][Video]]
+
+In this video, I will tell you what we will cover in this course.
+
+The course is broken down into four modules.
+
+{{{heading(Module One: Introduction to Core Node.js Concepts)}}}
+In module number one, we will cover core Node.js concepts such as how to launch
+a script, how to work with the core modules such as HTTP and FS, and a few
+other modules, what are globals, and how to import files and also export to
+create modules.  We will build simple HTTP clients and HTTP servers.
+
+{{{heading(Module Two:The Express Framework)}}}
+In module number two, we will progress to Express framework.  Most developers
+do not develop just with core modules.  They use libraries and frameworks.  So,
+we will use Express framework to build RESTful API server.  The RESTful API
+server will have four operations.  Main operations such as create, read, update
+and delete, CRUD.
+
+{{{heading(Module Three: Persistence with MongoDB)}}}
+In module number three, we will cover the persistence, and we would use
+database MongoDB.  MongoDB, it's a nosql database and it plays nicely with
+Node.js.  They both have JavaScript interface.  So we would leverage MongoDB
+and its native driver, which is the Node.js library, to enhance our RESTful
+CRUD API.  So our RESTful CRUD API, at the end of the module three, will have
+persistent layer in the form of MongoDB database.
+
+{{{heading(Module Four: Mongoose Object Document Mapper)}}}
+Finally, in the module number four, we will take it to the next level and we
+will start using Mongoose, which is object document mapper.  If you're familiar
+with ORM libraries, ODM, or object document mapper, it's very similar.  It
+provides you a level of abstraction, so you don't have to work with the
+database methods directly.  You can work with objects and that provides you
+more convenient way.  Also, Mongoose has a lot of features and methods, so we
+will cover them in module four.
+
+{{{heading(Conclusion)}}}
+At the end of this course, you will have a great overview and a lot of skills
+around the foundation of Node.js, as well as NPM, and MongoDB.  And you will
+have practical skills, and you would build few applications yourselves from
+scratch that will give you enough confidence and enough skills to start
+developing your own applications.
+
+** Why Node
+** Node in Modern Web Development
+** Module 0 Assignnment Lab Introductions
+
+* Node Core
+
+* Express Framework
+
+* Persistence with MongoDB
+
+* Working with Mongoose ODM
+
+* Export Settings                                                  :noexport:
+#+TEXINFO_FILENAME:intro_nodejs.info
+#+TEXINFO_CLASS: info
+#+TEXINFO_HEADER:
+#+TEXINFO_POST_HEADER:
+#+TEXINFO_DIR_CATEGORY:NodeJS
+#+TEXINFO_DIR_TITLE:Introduction to NodeJS
+#+TEXINFO_DIR_DESC:Introduction to NodeJS by Microsoft
+#+TEXINFO_PRINTED_TITLE:Introduction to NodeJS
+
+* Macro Definitions                                                :noexport:
+#+macro:heading @@texinfo:@heading $1@@
+#+macro:subheading @@texinfo:@subheading $1@@
