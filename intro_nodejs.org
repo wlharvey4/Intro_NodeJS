@@ -4,7 +4,7 @@
 #+SUBTITLE:Microsoft DEV283x
 #+DATE:September 30, 2018
 #+AUTHOR:Azat Mardan
-#+VERSION:0.0.5 <2019-04-27 Sat 23:03>
+#+VERSION:0.0.6 <2019-04-27 Sat 23:12>
 
 * Introduction
 ** Welcome
@@ -576,7 +576,7 @@ following topics:
 4. Node process information
 
 
-{{{heading(Node Modules with ~require~ and ~module.exports~)}}}
+{{{heading(Node Modules with @command{require} and @command{module.exports})}}}
 
 1. Node modules with ~require~ and ~module.exports~
 2. ~require~ usage patterns
@@ -637,14 +637,14 @@ give you a very solid, very good strong foundation upon which you can
 build your further knowledge on Node.js and you can leverage this
 knowledge in any Node.js project.
 
-{{{Global Objects and Keywords)}}}
+{{{heading(Global Objects and Keywords)}}}
 
 So, first of all, we will take a look at some of the global objects
 and global keywords which you can use in any Node.js project, in any
 Node.js script.  Some of them will give you additional information,
 others will allow you to use certain mechanisms.
 
-{{{subheading(Node.js Modules---~require~---~module.exports~)}}}
+{{{subheading(Node.js Modules---@command{require}---@command{module.exports})}}}
 
 One of those mechanisms is Node.js modules.  You see, in browser
 JavaScript, we up until recently didn't have any modules, you would
@@ -687,7 +687,6 @@ So again, this is a very important module, it will give you a solid
 strong foundation for all your future Node.js development and your
 projects.  So please, please, please, pay attention carefully and I'll
 see you in the next lesson.
-
 
 ** Installation and Recommended Toolchain
 
