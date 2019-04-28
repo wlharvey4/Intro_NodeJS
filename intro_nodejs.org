@@ -4,7 +4,7 @@
 #+SUBTITLE:Microsoft DEV283x
 #+DATE:September 30, 2018
 #+AUTHOR:Azat Mardan
-#+VERSION:0.0.2 <2019-04-27 Sat 21:40>
+#+VERSION:0.0.3 <2019-04-27 Sat 21:54>
 
 * Introduction
 ** Welcome
@@ -63,8 +63,10 @@ company) where I help to bring innovation and best software engineering
 practices. In my spare time, I write about Node and JavaScript on my blog
 Webapplog.com and Node.University.
 
-**** Lecture
-[[https://www.youtube.com/embed/dcOXqvXEWCI?controls=0&wmode=transparent&rel=0&showinfo=0&enablejsapi=1&modestbranding=1&cc_load_policy=0&html5=1&origin=https%253A%252F%252Fcourses.edx.org&widgetid=8][Lecture Video]]
+**** Video and Transcript
+[[https://www.youtube.com/embed/dcOXqvXEWCI?controls=0&wmode=transparent&rel=0&showinfo=0&enablejsapi=1&modestbranding=1&cc_load_policy=0&html5=1&origin=https%253A%252F%252Fcourses.edx.org&widgetid=8][Video]]
+
+{{{heading(Transcript)}}}
 
 Hello, everyone. Welcome to this edx course, Introduction to Node.js.  In this
 course, you will learn practical skills necessary to get you started developing
@@ -157,6 +159,8 @@ Mongoose. Here is a detailed overview of the course:
 *** Video and Transcript
 [[https://www.youtube.com/embed/OjPd4eM1MDU?controls=0&wmode=transparent&rel=0&showinfo=0&enablejsapi=1&modestbranding=1&cc_load_policy=0&html5=1&origin=https%253A%252F%252Fcourses.edx.org&widgetid=1][Video]]
 
+{{{heading(Transcript)}}}
+
 In this video, I will tell you what we will cover in this course.
 
 The course is broken down into four modules.
@@ -202,7 +206,32 @@ developing your own applications.
 
 *** Node.js Benefits
 
+Let's start by taking a look at why Node.js is one of the fastest growing web
+platforms out there.
+
+Node.js provides you with the following benefits:
+
+- Develop faster due to the vast number of modules and reusable code from npm
+- Make fewer mistakes and be more productive (One language across the stack)
+- Delight your user with fast response time (YMMV)
+- Reduce team size and communication overhead (full stack JavaScript)
+- Reduce dependency on other teams (e.g., backend API teams)
+- Ability to re-use code on the browser and server
+
+*** Node.js Features
+
+Node.js has some distinct features. Here are some examples of those features:
+
+- Non-blocking I/O: performant
+- Fast JS engine: browser arms race (Google Chrome V8 and Microsoft Chakra)
+- Expressive and interpreted language: don't waste time on setup
+- Solid and improving language standard (ECMAScript)
+- Built in package manager with a humongous number of packages (npm)
+
+*** Why Node Video and Transcript
 [[https://www.youtube.com/embed/eUIPT-sXd3o?controls=0&wmode=transparent&rel=0&showinfo=0&enablejsapi=1&modestbranding=1&cc_load_policy=0&html5=1&origin=https%3A%2F%2Fcourses.edx.org&widgetid=1][Why Node? video]]
+
+{{{heading(Transcript)}}}
 
 You might be wondering, why you should learn Node.js.  And some of you
 if you're taking this course, you might already know.  But let me
@@ -250,7 +279,7 @@ anymore.  Your front end engineers they could develop on the back end
 and vice versa.  The new term for such development is full stack
 JavaScript developer, or generalized developer.
 
-{{{Powered by Google Chrome V8 Engine)}}}
+{{{heading(Powered by Google Chrome V8 Engine)}}}
 
 So, as you can see there are a lot of benefits.  And those benefits,
 they're powered by certain characteristics and features of Node.js
@@ -260,7 +289,7 @@ the heart of Node.js, you use Google Chrome V8 engine.  Recently,
 Microsoft Chakra is also available as the JavaScript engine.  That
 tells you that Node.js is super super fast.
 
-{{{Fast Non-Blocking Input-Output System)}}}
+{{{heading(Fast Non-Blocking Input-Output System)}}}
 
 Another reason why it's fast, is because Node.js it uses a
 non-blocking input and output system.  You see in a lot of Web
@@ -305,7 +334,11 @@ don't use Node.js for blocking, CPU-intensive tasks.  Node.js will not give you
 a performance boost for stuff like that.  Node.js is best suited for I/O stuff
 (like web servers).
 
+*** Node.js Downsides Video and Transcript
+
 [[https://www.youtube.com/embed/Lq6DS7pjGYA?controls=0&wmode=transparent&rel=0&showinfo=0&enablejsapi=1&modestbranding=1&cc_load_policy=0&html5=1&origin=https%3A%2F%2Fcourses.edx.org&widgetid=1][Node.js Downsides video]]
+
+{{{heading(Transcript)}}}
 
 Of course, nothing is all about the upsides.  There are certain
 downsides to using Node JS.
@@ -352,7 +385,7 @@ server acts as a middleman between the front-end application and the database
 or other services.  The server does things which the front-end app cannot do:
 authentication, data validation, working with a file system, encryption, etc.
 
-{{{Endpoints are Distinguished by HTTP URLs)}}}
+{{{heading(Endpoints are Distinguished by HTTP URLs)}}}
 
 The way the server communicates with the front-end app client and vice versa is
 by having various endpoints distinguished by URLs in accordance to the HTTP
@@ -378,7 +411,7 @@ you the flexibility to leverage your servers for other clients (mobile, IoT,
 public) and will allow you to change front-end clients easily because of the
 loose coupling provided by the API.
 
-*** Video
+*** Video and Transcript
 
 [[https://www.youtube.com/embed/Djg4rFGffNs?controls=0&wmode=transparent&rel=0&showinfo=0&enablejsapi=1&modestbranding=1&cc_load_policy=0&html5=1&origin=https%3A%2F%2Fcourses.edx.org&widgetid=1][Node in Modern WebDev video]]
 
@@ -449,7 +482,7 @@ endpoints.  It's still an HTTP protocol.  But by reducing the number
 of endpoints, you can submit queries, GraphQL queries as to the
 server.
 
-{heading(Universal JavaScript)}}}
+{{{heading(Universal JavaScript)}}}
 
 So, we typically build either restful API or we build GraphQL servers.
 But once in a while, we also want to go back and do the server-side
