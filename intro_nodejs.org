@@ -4,7 +4,7 @@
 #+SUBTITLE:Microsoft DEV283x
 #+DATE:September 30, 2018
 #+AUTHOR:Azat Mardan
-#+VERSION:0.0.6 <2019-04-27 Sat 23:12>
+#+VERSION:0.0.7 <2019-04-28 Sun 09:11>
 
 * Introduction
 ** Welcome
@@ -805,8 +805,63 @@ sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
 This changes the permissions of the sub-folders used by ~npm~ and some other
 tools (~lib/node_modules~, ~bin~, and ~share~).
 
-** Launching Node---Globals---Process
+*** Before We Start
 
+[[https://www.youtube.com/embed/X6IO7j_rWao?controls=0&wmode=transparent&rel=0&showinfo=0&enablejsapi=1&modestbranding=1&cc_load_policy=0&html5=1&origin=https%253A%252F%252Fcourses.edx.org&widgetid=2][Video]]
+
+{{{heading(Transcript)}}}
+
+I hope you followed the instructions in the previous video, in
+which I showed you how to install MongoDB.  So let's go and check that
+you have the proper MongoDB version.
+
+{{{heading(Checking @command{mongod} Version)}}}
+
+So you would go into your terminal and type =mongod -version=.  Mongod
+is a command for the daemon of MongoDB database server.  And as you
+can see I have =version3= which is compatible for this course.
+
+{{{heading(Install Node @command{static} Command)}}}
+
+What else can we do?  We can install something globally with ~npm~,
+such as ~node-static~.  So ~node-static~, that's a package name and
+it's a command line tool, so we can install it globally.  That's why
+you see that =-g= flag and =i= stands for install.  So if you can
+execute this command and if you've seen a successful message without
+any errors that means your NPM was installed properly.  And let's
+double check that we have the ~static~ command.
+
+{{{subheading(Problems Installing @command{static}?)}}}
+
+Now we have the ~static~ command installed.  Thanks to the global
+~npm~ installation.  If you're seeing permission error, most likely
+you would have to use ~sudo npm i -g node-static~.  But this is only
+for global installations.
+
+{{{subheading(Change Ownership on Folder)}}}
+
+The better way would be to use the change ownership command on that
+particular folder.  So how do you know the folder name?  So we can all
+do ~npm~.  Which ~npm~ that will give you the location of the command
+and you can also monitor in those error messages what folder lacks
+those permissions.  And then you can go and use ~chown~ to change
+those permissions.
+
+{{{heading(Install @command{nvm})}}}
+
+So it depends how you installed ~npm~.  I used ~nvm~ to install ~npm~.
+That's another tool which you can leverage.  ~nvm~ stands for Node
+Version Manager.
+
+{{{heading(Use @command{eval} to Check Versions)}}}
+
+One more thing that you can check.  You can use ~eval~ to check the
+versions, but the versions will be coming from the ~node~ process.  So
+it's kind of like from within.  And that should match the non-version
+command.  You can also check versions on the Google Chrome V8 engine
+and other packages.  So that's it, you're ready to go now.
+
+** Launching Node---Globals---Process
 ** Node Modules with Require
 
 ** Core Modules
