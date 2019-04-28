@@ -4,63 +4,71 @@
 #+SUBTITLE:Microsoft DEV283x
 #+DATE:September 30, 2018
 #+AUTHOR:Azat Mardan
-#+VERSION:0.0.3 <2019-04-27 Sat 21:54>
+#+VERSION:0.0.4 <2019-04-27 Sat 22:22>
 
 * Introduction
 ** Welcome
 *** Before You Start
 
-[[file:videos/0.1.Before_You_start.mp4][Before You Start video]]
+[[https://www.youtube.com/embed/aR9jcJp1FII?controls=0&wmode=transparent&rel=0&showinfo=0&enablejsapi=1&modestbranding=1&cc_load_policy=0&html5=1&origin=https%253A%252F%252Fcourses.edx.org&widgetid=7][Before You Start video]]
 
-[[https://www.youtube.com/embed/aR9jcJp1FII?controls=0&wmode=transparent&rel=0&showinfo=0&enablejsapi=1&modestbranding=1&cc_load_policy=0&html5=1&origin=https%253A%252F%252Fcourses.edx.org&widgetid=7][Before You Start YouTube]]
+{{{heading(Transcript)}}}
 
-Hello and welcome to this online course from Microsoft Learning.  >> At
-Microsoft our mission is empower every person and every organization to achieve
-more.  >> Our EdX courses, taught by Microsoft experts, let you learn cutting
-edge technologies through hands on experience.  >> Whether you're a student or
-a seasoned technologist we can empower you to build innovative applications,
+#+CINDEX:welcome
+Hello and welcome to this online course from Microsoft Learning.  At Microsoft
+our mission is empower every person and every organization to achieve more.
+Our EdX courses, taught by Microsoft experts, let you learn cutting edge
+technologies through hands on experience.  Whether you're a student or a
+seasoned technologist we can empower you to build innovative applications,
 services and experiences.
 
->> So what are the requirements for course completion?  Well, time.  >> On
-average our courses have four modules, which are two to four hours each.  >>
-Watch the videos, including presentations and demonstrations.  >> Like you
-would attend a lecture on campus.  >> Complete course readings or projects and
-hands on learning activities.  >> These are your homework assignments and
-probably where you will learn most.  >> Take quizzes to help you prepare for
-the assessment.  >> The assessments can only be taken once and you need a
-passing grade to successfully complete the course.  >> Our courses are free as
-all learning should be.  >> For a shareable, verified certificate, there is the
-fee.
+ So what are the requirements for course completion?  Well, time.  On average
+our courses have four modules, which are two to four hours each.  Watch the
+videos, including presentations and demonstrations.  Like you would attend a
+lecture on campus.  Complete course readings or projects and hands on learning
+activities.  These are your homework assignments and probably where you will
+learn most.  Take quizzes to help you prepare for the assessment.  The
+assessments can only be taken once and you need a passing grade to successfully
+complete the course.  Our courses are free as all learning should be.  For a
+shareable, verified certificate, there is the fee.
 
->> While our courses offer different experiences, all of them shared a similar
-approach.  >> Please review the About page to find specific information about
-your course.  >> For example, some courses release all content immediately.  >>
-While others release modules incrementally over time.  >> Are part of a larger
-learning program.  >> Many require an Azure or Office 365 subscription.  >>
-Many students use a free trial subscription.  >> Offer opportunities to engage
-with instructors and peers.  >> The most common indicators of success among the
-more than 2 million learners that experienced our online courses are >>
-Dedicating enough time to the course.  >> Demonstrating perseverance.  >> And
-participating in the discussion groups.  >> Welcome to the world of Microsoft
-technology.  Choose a path and make your mark.
+While our courses offer different experiences, all of them shared a similar
+approach.  Please review the About page to find specific information about your
+course.  For example, some courses release all content immediately.  While
+others release modules incrementally over time.  Are part of a larger learning
+program.  Many require an Azure or Office 365 subscription.  Many students use
+a free trial subscription.  Offer opportunities to engage with instructors and
+peers.  The most common indicators of success among the more than 2 million
+learners that experienced our online courses are Dedicating enough time to the
+course.  Demonstrating perseverance.  And participating in the discussion
+groups.  Welcome to the world of Microsoft technology.  Choose a path and make
+your mark.
 
 *** Welcome to Introduction to Node.js
-Welcome to Introduction to Node.js on edX. In this course, you will not only
+
+#+CINDEX:welcome
+Welcome to Introduction to Node.js on edX.  In this course, you will not only
 learn the foundation of Node.js, but you will also build practical skills which
-you can use in your day-to-day job. You will be able to harness the power of
+you can use in your day-to-day job.  You will be able to harness the power of
 Express and MongoDB and be ready to build your own web applications using
 Node.js. You will impress your friends, co-workers and your boss with these
 newly acquired skills.
 
-But before we start, let me introduce myself first. My name is Azat Mardan. I'm
-the founder of Node University and author of Practical Node.js as well as other
-14 books on Node and JavaScript. I've been using Node since it's earlier years
-and have been teaching it at conferences, workshops and webinars for the past
-five years.
+#+CINDEX:Mardan, Azat
+#+CINDEX:Node University
+#+CINDEX:Practical Node.js
+But before we start, let me introduce myself first.  My name is Azat Mardan.
+I'm the founder of Node University and author of Practical Node.js as well as
+other 14 books on Node and JavaScript.  I've been using Node since it's earlier
+years and have been teaching it at conferences, workshops and webinars for the
+past five years.
 
+#+CINDEX:Technology Fellow
+#+CINDEX:WebAppLog.com
+#+CINDEX:Node.University
 I work as a Technology Fellow at Capital One (top 10 US bank and a Fortune 500
 company) where I help to bring innovation and best software engineering
-practices. In my spare time, I write about Node and JavaScript on my blog
+practices.  In my spare time, I write about Node and JavaScript on my blog
 Webapplog.com and Node.University.
 
 **** Video and Transcript
@@ -68,12 +76,17 @@ Webapplog.com and Node.University.
 
 {{{heading(Transcript)}}}
 
-Hello, everyone. Welcome to this edx course, Introduction to Node.js.  In this
+Hello, everyone. Welcome to this edX course, Introduction to Node.js.  In this
 course, you will learn practical skills necessary to get you started developing
 with Node.js.  I'm really excited to teach this course because I believe that
 Node.js is one of the greatest technologies which will allow you to develop
 application rapidly.
 
+#+CINDEX:Mardan, Azat
+#+CINDEX:Practical Node.js
+#+CINDEX:Node University
+#+CINDEX:WebAppLog
+#+CINDEX:Node.University
 Who am I? My name is Azat Mardan.  I wrote a book called Practical Node.js
 which was number one on Amazon for many months on the topic of Node.js.  And I
 was early adopter of Node.js working at such companies such as Storify and
@@ -86,7 +99,12 @@ time to learn this amazing technology.  Welcome to the course, and I'll see you
 in the next video.
 
 ** Overview
-
+#+CINDEX:core modules
+#+CINDEX:Express
+#+CINDEX:MongoDB
+#+CINDEX:Mongoose
+#+CINDEX:overview, detailed
+#+CINDEX:modules, overview
 This course will cover the Node core modules, Express, MongoDB and
 Mongoose. Here is a detailed overview of the course:
 
@@ -156,7 +174,7 @@ Mongoose. Here is a detailed overview of the course:
 2. Post-Course Survey
 3. Course Summary
 
-*** Video and Transcript
+*** Overview Video and Transcript
 [[https://www.youtube.com/embed/OjPd4eM1MDU?controls=0&wmode=transparent&rel=0&showinfo=0&enablejsapi=1&modestbranding=1&cc_load_policy=0&html5=1&origin=https%253A%252F%252Fcourses.edx.org&widgetid=1][Video]]
 
 {{{heading(Transcript)}}}
@@ -165,6 +183,7 @@ In this video, I will tell you what we will cover in this course.
 
 The course is broken down into four modules.
 
+#+CINDEX:modules, overview
 {{{heading(Module One: Introduction to Core Node.js Concepts)}}}
 In module number one, we will cover core Node.js concepts such as how to launch
 a script, how to work with the core modules such as HTTP and FS, and a few
@@ -209,8 +228,11 @@ developing your own applications.
 Let's start by taking a look at why Node.js is one of the fastest growing web
 platforms out there.
 
+#+CINDEX:benefits, Node.js
 Node.js provides you with the following benefits:
 
+#+CINDEX:npm modules
+#+CINDEX:full stack JavaScript
 - Develop faster due to the vast number of modules and reusable code from npm
 - Make fewer mistakes and be more productive (One language across the stack)
 - Delight your user with fast response time (YMMV)
@@ -220,8 +242,14 @@ Node.js provides you with the following benefits:
 
 *** Node.js Features
 
+#+CINDEX:features, Node.js
 Node.js has some distinct features. Here are some examples of those features:
 
+#+CINDEX:non-blocking I/O
+#+CINDEX:Chrome V8 engine
+#+CINDEX:Microsoft Chakra engine
+#+CINDEX:ECMAScript
+#+CINDEX:npm package manager
 - Non-blocking I/O: performant
 - Fast JS engine: browser arms race (Google Chrome V8 and Microsoft Chakra)
 - Expressive and interpreted language: don't waste time on setup
@@ -233,6 +261,7 @@ Node.js has some distinct features. Here are some examples of those features:
 
 {{{heading(Transcript)}}}
 
+#+CINDEX:benefits, Node.js
 You might be wondering, why you should learn Node.js.  And some of you
 if you're taking this course, you might already know.  But let me
 answer this question and get you excited and tell you all the benefits
@@ -240,16 +269,20 @@ why you should learn Node.js.
 
 {{{heading(Tap Into a Lot of NPM Modules)}}}
 
+#+CINDEX:npm package manager
 So first of all Node.js allows you to develop faster, because there
 are a lot of modules which you can tap into.  JavaScript, one of the
 most popular languages out there, just because the sheer number of
 browsers that people use surpasses any other platform.  So you can tap
-into the NPM, which is node package manager.  You can tap into the NPM
+into the NPM, which is Node package manager.  You can tap into the NPM
 registry to get pretty much any module.  So sometimes you don't even
 have to write that much code.
 
 {{{heading(Learn Just One Language---JavaScript)}}}
 
+#+CINDEX:JavaScript
+#+CINDEX:MongoDB
+#+CINDEX:Node.js
 Another benefit is that, you have to learn just one language.  With
 JavaScript you can develop for the browser, can develop for the server
 which is Node.js technology.  And then if you using MongoDB as your
@@ -272,6 +305,7 @@ language across all parts of your application.
 
 {{{heading(Decrease Your Team Size with Full Stack JavaScript Developers)}}}
 
+#+CINDEX:full stack developers
 Another reason, if you are leading a team, or you are building your wn
 startup, or you're in a management position is that, you can decrease
 your team size.  You don't have to have a dedicated backend team
@@ -281,6 +315,8 @@ JavaScript developer, or generalized developer.
 
 {{{heading(Powered by Google Chrome V8 Engine)}}}
 
+#+CINDEX:Google Chrome V8 engine
+#+CINDEX:Microsoft Chakra engine
 So, as you can see there are a lot of benefits.  And those benefits,
 they're powered by certain characteristics and features of Node.js
 such as, Google Chrome V8 engine.  So Google Chrome V8 engine is a
@@ -291,6 +327,7 @@ tells you that Node.js is super super fast.
 
 {{{heading(Fast Non-Blocking Input-Output System)}}}
 
+#+CINDEX:non-blocking I/O system
 Another reason why it's fast, is because Node.js it uses a
 non-blocking input and output system.  You see in a lot of Web
 applications and a lot of networking applications, what takes a lot of
@@ -300,7 +337,7 @@ encoding.  But that often is not the use case.  Often you make a
 request to another service, another database, or you're reading from a
 database, writing to a file system.  So, those are input and output
 operations.  And while you're waiting, that time could be used.  And
-that's why node is so fast and performance because, it utilizes this
+that's why Node is so fast and performance because, it utilizes this
 waiting time, to serve other clients.  Instead of some other
 languages, such as Python or Java.  They cannot utilize that time in
 their threads.  They can serve just one client.  Node.js thread can
@@ -311,10 +348,12 @@ are some of the benefits of Node.js.
 
 *** Node.js Downsides
 
+#+CINDEX:downsides, Node.js
 Node isn't always the best design choice.  Like most things in life, Node.js
 has some downsides.  Node might not be a good fit because of the following
 reasons:
 
+#+CINDEX:memory leaks
 - Memory leaks in long running processes with Node are worse than in short
   running browser environments such as browser JavaScript
 
@@ -329,6 +368,8 @@ reasons:
 - No built-in typing (but possible with TypeScript)
 
 
+#+CINDEX:event loop
+#+CINDEX:blocking, CPU-intensive tasks, no benefit
 *Note*: The Event loop is the core of Node.js and it's a genius idea.  However,
 don't use Node.js for blocking, CPU-intensive tasks.  Node.js will not give you
 a performance boost for stuff like that.  Node.js is best suited for I/O stuff
@@ -340,11 +381,16 @@ a performance boost for stuff like that.  Node.js is best suited for I/O stuff
 
 {{{heading(Transcript)}}}
 
+#+CINDEX:downsides, Node.js
 Of course, nothing is all about the upsides.  There are certain
-downsides to using Node JS.
+downsides to using Node.js.
 
 {{{heading(Code Runs Asynchronously)}}}
 
+#+CINDEX:asynchronous code
+#+CINDEX:callbacks
+#+CINDEX:promises
+#+CINDEX:async/await
 Some of them is that because of it's non-blocking IO nature and the
 way you write the asynchronous code, it might be a little bit tough
 for engineers and developers who learned synchronous way of coding to
@@ -353,12 +399,13 @@ differently, you need to change your thinking into thinking in an
 asynchronous way when you're coding with JavaScript and especially
 with Node JS.  Things such as
 - callbacks,
-- promises, 
+- promises,
 - async/await.
 
 
 {{{heading(Tooling is not as Mature as Some Programming Environments)}}}
 
+#+CINDEX:tooling, immature
 So those features and those syntactic items, they help you to deal
 with a asynchronous code.  Another thing is that the tooling might not
 be as mature, and the libraries might not be as mature as some of the
@@ -372,6 +419,10 @@ mature as some other frameworks and languages.
 
 {{{heading(Single Page Applications)}}}
 
+#+CINDEX:modern web development
+#+CINDEX:single page applications
+#+CINDEX:SPA
+#+CINDEX:thick client
 Modern web development consists of building front-end applications which
 connect to servers to submit or get data.  The front-end applications use the
 single-page application approach a.k.a. thick client.  In it, a client app
@@ -393,6 +444,7 @@ standard.  Each request for data has URL, headers, and body (a.k.a. payload).
 
 {{{heading(Node.js is used to Implement Backend Servers)}}}
 
+#+CINDEX:JSON RESTful APIs
 Implementation of servers is where Node comes in.  Node is used to implement
 the backend servers which are often JSON RESTful APIs (but they could be of
 other formats as well).  Node is on par with stacks such as Apache web
@@ -400,6 +452,7 @@ server+PHP or Tomcat+Java.
 
 {{{heading(Express Framework Often Used to Implement Web Applications)}}}
 
+#+CINDEX:Express framework
 Node is not a framework by itself because it offers very low level mechanisms.
 The Express framework is often used to implement web applications and RESTful
 API servers in Node.
@@ -417,6 +470,7 @@ loose coupling provided by the API.
 
 {{{heading(The Traditional Approach to Web Development)}}}
 
+#+CINDEX:traditional web development
 What is the place of Node.js in modern web development?  Let's start
 with a little bit of history.  In 1990s, in 1995, and early 2000, the
 way people did web development, they were building server-side
@@ -428,6 +482,7 @@ approach or fix server, because most of the logic is on the server.
 
 {{{heading(A Newer Method---the Thick Client)}}}
 
+#+CINDEX:thick client
 Later on in 2005, 2006, and 2007, people started coming up with a
 different approach, thick client.  So, they were moving some of the
 logic on the client which is the browser, that allowed to develop
@@ -438,6 +493,7 @@ the JavaScript language.
 
 {{{heading(The Modern Approach---Single Page Applications)}}}
 
+#+CINDEX:single page applications
 Now, their approach is similar to the thick client.  We build single
 page applications, we build front end applications, and a lot of code
 resides in those applications.  On the server, we still do the
@@ -449,6 +505,9 @@ modern development is done right now.
 
 {{{heading(Some Traditional Technologoies---PHP and Java-Tomcat)}}}
 
+#+CINDEX:PHP
+#+CINDEX:Tomcat
+#+CINDEX:Java
 Some of the technologies that people use, PHP is one of the most
 popular platforms to build web applications.  That's a server side
 technology.  PHP runs in a batch.  Another example would be Tomcat and
@@ -459,7 +518,7 @@ PHP would be interpreted.
 
 {{{heading(Modern Technology Users Node.js for both Client and Server)}}}
 
-In Node.js it's Slightly different because Node.js combines web server
+In Node.js it's slightly different because Node.js combines web server
 and the language together.  So Node.js in your stack would replace
 both Apache web server and PHP or both Tomcat and Java JAR file which
 is a compiled Java file.  So Node.js when you write Node.js code, you
@@ -467,8 +526,10 @@ build a web server but also you would build your application.
 
 {{{heading(Modern Applications are RESTful API Servers)}}}
 
+#+CINDEX:RESTful API
+#+CINDEX:HTTP methods
 And what type of applications do we build?  Well, most of all, we
-build restful API servers.  Following restful methodology, we build
+build RESTful API servers.  Following restful methodology, we build
 stateless servers.  So they shouldn't have any states within them
 which would make them easier to scale without the states.  And we
 follow the HTTP methodology by using different HTTP methods such as
@@ -476,6 +537,7 @@ GET, POST, PUT etc.
 
 {{{heading(GraphQL Technology is even Newer)}}}
 
+#+CINDEX:GraphQL
 Another example would be building a GraphQL server.  GraphQL, it's a
 new emergent technology.  GraphQL allows you to reduce the number of
 endpoints.  It's still an HTTP protocol.  But by reducing the number
@@ -484,6 +546,7 @@ server.
 
 {{{heading(Universal JavaScript)}}}
 
+#+CINDEX:Universal JavaScript
 So, we typically build either restful API or we build GraphQL servers.
 But once in a while, we also want to go back and do the server-side
 rendering.  This is called Universal JavaScript.  All those approaches
@@ -501,6 +564,11 @@ as well.
 
 * Working with Mongoose ODM
 
+* Concept Index
+  :PROPERTIES:
+  :index:    cp
+  :unnumbered: t
+  :END:
 * Export Settings                                                  :noexport:
 #+TEXINFO_FILENAME:intro_nodejs.info
 #+TEXINFO_CLASS: info
